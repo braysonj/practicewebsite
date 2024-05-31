@@ -1,0 +1,91 @@
+h1 {
+    padding: 5rem 0 4.5rem 0;
+    color: var(--backgroundColor);
+    display: flex;
+    justify-content: center;
+}
+
+.content-link {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 200px;
+    height: 200px;
+    border: var(--backgroundColor) solid 1px;
+    border-bottom: 0;
+
+    background-image: url(../images/IMG_2769.JPG);
+    background-size: cover;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.content-cta {
+    color: var(--backgroundColor);
+    background-color: var(--highlighterColor);
+    border: var(--backgroundColor) solid 1px;
+    border-top: none;
+    border-radius: 0;
+    width: 200px;
+    text-decoration: none;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-link:focus {
+    outline: none;
+    border: var(--backgroundColor) solid 2px;
+    border-radius: 0;
+}
+
+.content-cta:focus {
+    outline: none;
+    border: var(--backgroundColor) solid 2px;
+    border-radius: 0;
+}
+
+.content-cta:hover {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+.content-link:hover {
+    background: var(--textColor);
+    .testt {
+        visibility: visible;
+    }
+}
+
+.testt {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    visibility: hidden;
+    color: var(--backgroundColor);
+    font-size: 1.5rem;
+}
+
+.seperator {
+    height: 4.5rem;
+}
